@@ -1,0 +1,401 @@
+/* Basic styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #141414;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: black;
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.myname {
+    color: #00FFFF;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.menu a {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.button1 {
+    background-color: #00FFFF;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.button2 {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: transparent;
+}
+
+/* Hero section */
+.hero {
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color: #111;
+}
+
+.leftside {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.rightside {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    text-align: center;
+}
+
+.greeting {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.leftside h1 {
+    font-size: 32px;
+    margin: 5px 0;
+}
+
+.jobtitle {
+    color: #00FFFF;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.social {
+    margin: 15px 0;
+}
+
+.socialbox {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #666;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.socialbox.small {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.buttons {
+    margin: 15px 0;
+}
+
+.buttons a {
+    margin-right: 10px;
+}
+
+.numbers {
+    margin-top: 20px;
+}
+
+.stat {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.big {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.smalltext {
+    color: #999;
+    font-size: 14px;
+}
+
+.line {
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background-color: #333;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #222;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.photo {
+    width: 180px;
+    height: 240px;
+    background-color: #222;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 240px;
+    color: #888;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    clear: both;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+/* Service cards */
+.cards {
+    text-align: center;
+}
+
+.servicecard {
+    width: 200px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.emoji {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #00FFFF;
+}
+
+.servicecard h3 {
+    color: #00FFFF;
+    margin: 10px 0;
+}
+
+.servicecard p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* About section */
+.aboutarea {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.myphoto {
+    width: 220px;
+    height: 280px;
+    background-color: #222;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 280px;
+    color: #888;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.mytext {
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    color: #ccc;
+}
+
+.mytext p {
+    margin-bottom: 15px;
+}
+
+/* Skills section */
+.skillsection {
+    background-color: #111;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skillbox {
+    width: 120px;
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    display: inline-block;
+    margin: 10px;
+}
+
+.skillcircle {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #00FFFF;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+/* Portfolio */
+.filters {
+    margin: 20px 0;
+}
+
+.filter {
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.filter.active {
+    background-color: #00FFFF;
+    color: black;
+}
+
+.portfoliocards {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.portcard {
+    width: 200px;
+    height: 150px;
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.portcard a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+}
+
+/* Contact form */
+.contactform {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.formrow {
+    margin-bottom: 15px;
+}
+
+.formrow input,
+.formrow select,
+.formrow textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: white;
+    margin-right: 2%;
+}
+
+.formrow textarea {
+    width: 48%;
+    height: 100px;
+}
+
+.contactform button {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: black;
+    border-top: 1px solid #333;
+    clear: both;
+}
+
+.footername {
+    font-weight: bold;
+    color: #00FFFF;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.footerlinks {
+    margin: 15px 0;
+}
+
+.footerlinks a {
+    margin: 0 15px;
+}
+
+.footersocial {
+    margin: 15px 0;
+}
+
+.footercontact {
+    margin-top: 15px;
+    color: #999;
+}
+
+.footercontact span {
+    margin: 0 20px;
+}
