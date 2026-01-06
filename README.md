@@ -1,1 +1,1 @@
-My personal portfolio website. For showcasing my projects, works what i did. etc.
+My personal portfolio website built using **HTML** and **CSS**, showcasing my projects, skills, and experience with a clean, modern, and fully responsive design. Created to highlight my work and provide an easy way to connect with me.
